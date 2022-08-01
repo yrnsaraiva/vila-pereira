@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vila-Pereira</title>
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <header id="header-reservas" >
+        <nav class="navbar navbar-expand-lg fixed-top text-center navbar-dark bg-transparent">
+            <div class="container-fluid">
+                <button class="navbar-toggler my-5 mx-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon text-dark"></span>
+                </button>
+                <div class="collapse navbar-collapse bg-transparent justify-content-around" id="navbarNav">
+                    <ul class="navbar-nav nav-list justify-content-between">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Restaurante</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">reservas</a>
+                        </li>
+
+                        <a class="navbar-brand active" href="#">
+                            <img src="../img/logos/logo.svg" alt="">
+                        </a>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Guest House</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">localizacao</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+
+<!--    <header>-->
+<!--        <nav class="navbar navbar-expand-lg fixed-top text-center navbar-dark bg-transparent">-->
+<!--            <div class="container-fluid">-->
+<!--                <button class="navbar-toggler my-5 mx-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">-->
+<!--                    <span class="navbar-toggler-icon text-dark"></span>-->
+<!--                </button>-->
+<!--                <div class="collapse navbar-collapse bg-dark justify-content-around" id="navbarNav">-->
+<!--                    <ul class="navbar-nav nav-list justify-content-between">-->
+<!--                        <li class="nav-item">-->
+<!--                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>-->
+<!--                        </li>-->
+<!--                        <li class="nav-item">-->
+<!--                            <a class="nav-link" href="#">Restaurante</a>-->
+<!--                        </li>-->
+<!--                        <li class="nav-item">-->
+<!--                            <a class="nav-link" href="#formulario-reservas">reservas</a>-->
+<!--                        </li>-->
+<!--                    </ul>-->
+<!--                    <a class="navbar-brand active" href="#">-->
+<!--                        <img src="../img/logos/logo.svg" alt="" width="30" height="24">-->
+<!--                    </a>-->
+<!--                    <ul class="navbar-nav nav-list justify-content-between">-->
+<!--                        <li class="nav-item">-->
+<!--                            <a class="nav-link" href="#">Guest House</a>-->
+<!--                        </li>-->
+<!--                        <li class="nav-item">-->
+<!--                            <a class="nav-link" href="../index.html#about">About</a>-->
+<!--                        </li>-->
+<!--                        <li class="nav-item">-->
+<!--                            <a class="nav-link" href="../index.html#location">localizacao</a>-->
+<!--                        </li>-->
+<!--                    </ul>-->
+<!--                </div>-->
+
+<!--            </div>-->
+<!--        </nav>-->
+<!--    </header>-->
+
+    <section id="reservas" class="text-center">
+        <div class="container">
+            <h2 class="sub-headline text-white">Reservas</h2>
+
+            <div class="single-animation pt-5 mt-5">
+                <a href="pages/bookingRestaurant.html" class="btn cta-btn">RESERVAR AGORA</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="formulario-reservas" class="formulario-reservas">
+
+        <div class="container logo mb-5">
+            <img src="../img/logos/LOGO%20G%201.png" alt="">
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12 align-items-center text-center">
+                    <p>
+                        Para o reserva de mesas, de espaco para eventos festivos, e muito mais.
+                        Nao hesite em contactarnos usando o formulario abaixo, ou usando o numero de
+                        telemovel disponiblizado abaixo.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-lg-5 offset-lg-1 mx-auto my-5 py-5">
+                    <form action="#">
+                        <div class="row g-3">
+
+                            <div class="col-4">
+                                <input type="text" class="form-control" placeholder="Nome" aria-label="Nome">
+                            </div>
+                            <div class="col-4">
+                                <input type="tel" class="form-control" placeholder="Contacto (Tel.)" aria-label="Tel">
+                            </div>
+                            <div class="col-4">
+                                <input type="text" class="form-control" placeholder="Assunto" aria-label="Assunto">
+                            </div>
+                            <div class="col-4">
+                                <input type="date" class="form-control" aria-label="Data">
+                            </div>
+                            <div class="col-2">
+                                <input type="number" value="1" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control" id="Textarea1" rows="5" placeholder="Descricao"></textarea>
+                            </div>
+                        </div>
+                        <div class="single-animation">
+                            <a href="#" type="submit" class="btn cta-btn">Enviar</a>
+                        </div>
+                    </form>
+
+                    <div class="row mt-5 pt-5">
+                        <div class="col-12 align-items-center text-center">
+                            <p>
+                                Você pode fazer uma reserva a qualquer momento online ou ligando para (+258) 87 650 9001
+                                durante nosso horário de funcionamento.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="horarios">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+<!--                <img src="../img/outras/Untitled-3%203.png" alt="">-->
+                <div class="col align-items-center text-center">
+                    <h6>HORARIOS DE FUNCIONAMENTO</h6>
+                    <p class="mt-5 pt-4">
+                        Abertos de Seg. a Sex. - 08H ate 22H
+                        <br>
+                        &
+                        <br>
+                        Abertos de Sab. a Dom. - 07H ate 24H
+                    </p>
+                    <div class="single-animation mt-5">
+                        <a href="../index.html#location" type="submit" class="btn cta-btn">LOCALIZACAO</a>
+                    </div>
+                </div>
+<!--                <img src="../img/outras/Untitled-3%204.png" alt="">-->
+            </div>
+
+            <div class="row justify-content-around mt-5 pt-5">
+                <div class="col-lg-6 mb-4"><img src="../img/carousel/c1.png" alt=""></div>
+                <div class="col-lg-6 mb-4 mt-5 pt-5"><img src="../img/carousel/c2.png" alt=""></div>
+                <div class="col-lg-6 mb-4"><img src="../img/carousel/c3.png" alt=""></div>
+                <div class="col-lg-6 mb-4 mt-5 pt-5"><img src="../img/carousel/c4.png" alt=""></div>
+                <div class="col-lg-6 mb-4"><img src="../img/carousel/c5.png" alt=""></div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="bg-dark animate-bottom" id="footer">
+        <div class="container logo my-5">
+            <img src="../img/logos/logo.svg" alt="">
+        </div>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row gy-5 justify-content-between">
+                    <div class="col-md-2">
+                        <h4 class="logo-text text-white pb-4">VILA PEREIRA</h4>
+                        <p class="text-white">
+                            Restaurante Moçambicano,
+                            com os melhores pratos Moçambicanos
+                        </p>
+                        <div class="social-icons">
+                            <a href="#"><i class="fa-brands fa-facebook-square"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <h5 class="title-sm text-white pb-4">NAIGATION</h5>
+                        <div class="footer-links">
+                            <a href="#">Inicio</a>
+                            <a href="#">Servicos</a>
+                            <a href="#">Menu</a>
+                            <a href="#">Guest house</a>
+                            <a href="#">Fale conosco</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <h5 class="title-sm text-white pb-4">CONTACTOS</h5>
+                        <div class="footer-links">
+                            <a href="#">+258 xx xxx xxxx</a>
+                            <a href="#">808080</a>
+                            <a href="#">vila.pereira@domain.com</a>
+                            <a href="#">location...</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <p class="mb-0 text-center">&copy;vila-pereira 2022. All rights reserved</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/bootstrap.js"></script>
+</body>
+</html>
